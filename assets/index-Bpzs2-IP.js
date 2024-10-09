@@ -12600,16 +12600,15 @@ function kp() {
   });
 }
 function Cp() {
-  const { isDarkMode, toggleDarkMode } = En();
-
-  return (
-    <button
-      id="dark-mode-toggle"
-      onClick={toggleDarkMode}
-      className="relative block rounded-full px-2 py-2 outline-none transition-all duration-300 hover:text-cyan focus:ring-2 focus:ring-offset-2 dark:hover:text-cyan"
-    >
-    </button>
-  );
+  const { isDarkMode: e, toggleDarkMode: t } = En();
+  return y.jsx("button", {
+    onClick: t,
+    className:
+      "relative block rounded-full px-2 py-2 outline-none transition-all duration-300  hover:text-cyan focus:ring-2 focus:ring-offset-2 dark:hover:text-cyan",
+    children: e
+      ? y.jsx(Cc, { size: 16, weight: "bold" })
+      : y.jsx(kc, { size: 16, weight: "bold" }),
+  });
 }
 function Ap({ isIntersecting: e }) {
   return y.jsx("header", {
@@ -12634,16 +12633,13 @@ function Ap({ isIntersecting: e }) {
     }),
   });
 }
-function En() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
-
-  const toggleDarkMode = () => {
-    setIsDarkMode(!isDarkMode);
-    document.body.classList.toggle('dark-mode');
-  };
-
-  return   
- { isDarkMode, toggleDarkMode };
+function Dr({ href: e, children: t }) {
+  return y.jsx("a", {
+    className:
+      "relative block rounded-full px-2 py-2 outline-none transition-all duration-300 hover:text-cyan focus:ring-2 focus:ring-offset-2 focus:ring-offset-white/75 dark:hover:text-cyan",
+    href: e,
+    children: t,
+  });
 }
 const Pp =
     "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='2500'%20height='2500'%20viewBox='0%200%201052%201052'%3e%3cpath%20fill='%23f0db4f'%20d='M0%200h1052v1052H0z'/%3e%3cpath%20d='M965.9%20801.1c-7.7-48-39-88.3-131.7-125.9-32.2-14.8-68.1-25.399-78.8-49.8-3.8-14.2-4.3-22.2-1.9-30.8%206.9-27.9%2040.2-36.6%2066.6-28.6%2017%205.7%2033.1%2018.801%2042.8%2039.7%2045.4-29.399%2045.3-29.2%2077-49.399-11.6-18-17.8-26.301-25.4-34-27.3-30.5-64.5-46.2-124-45-10.3%201.3-20.699%202.699-31%204-29.699%207.5-58%2023.1-74.6%2044-49.8%2056.5-35.6%20155.399%2025%20196.1%2059.7%2044.8%20147.4%2055%20158.6%2096.9%2010.9%2051.3-37.699%2067.899-86%2062-35.6-7.4-55.399-25.5-76.8-58.4-39.399%2022.8-39.399%2022.8-79.899%2046.1%209.6%2021%2019.699%2030.5%2035.8%2048.7%2076.2%2077.3%20266.899%2073.5%20301.1-43.5%201.399-4.001%2010.6-30.801%203.199-72.101zm-394-317.6h-98.4c0%2085-.399%20169.4-.399%20254.4%200%2054.1%202.8%20103.7-6%20118.9-14.4%2029.899-51.7%2026.2-68.7%2020.399-17.3-8.5-26.1-20.6-36.3-37.699-2.8-4.9-4.9-8.7-5.601-9-26.699%2016.3-53.3%2032.699-80%2049%2013.301%2027.3%2032.9%2051%2058%2066.399%2037.5%2022.5%2087.9%2029.4%20140.601%2017.3%2034.3-10%2063.899-30.699%2079.399-62.199%2022.4-41.3%2017.6-91.3%2017.4-146.6.5-90.2%200-180.4%200-270.9z'%20fill='%23323330'/%3e%3c/svg%3e",
