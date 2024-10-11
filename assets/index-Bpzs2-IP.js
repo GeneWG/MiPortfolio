@@ -12464,13 +12464,13 @@ function Sp({ reference: e }) {
         children: y.jsx("img", {
           className: " aspect-square w-24 rounded-full",
           src: t ? xp : wp,
-          alt: "Santiago Sepúlveda Icon",
+          alt: "Eugenio Witsman Icon",
         }),
       }),
       y.jsx("h1", {
         className:
           "mt-3 font-RedHat text-4xl font-bold text-gray9 sm:text-6xl dark:text-white",
-        children: "Hola, soy Santiago",
+        children: "Hola, soy Eugenio",
       }),
       y.jsxs("p", {
         className:
@@ -12480,19 +12480,19 @@ function Sp({ reference: e }) {
           " ",
           y.jsxs("span", {
             className: "font-medium text-cyan8",
-            children: [" ", "Desarrollador Web y Animador 3D."],
+            children: [" ", "Desarrollador de software."],
           }),
           " ",
           y.jsx("span", {
             className: "font-medium text-teal8",
-            children: "De Cúcuta, Colombia.",
+            children: "De Sevilla, España.",
           }),
           " ",
           "Apasionado por la creatividad.",
         ],
       }),
       y.jsx("a", {
-        href: "https://www.linkedin.com/in/santiago-sepúlveda-022a8a217/",
+        href: "https://www.linkedin.com/in/gene-witsman-garcía-0a814b286/",
         rel: "noopener",
         className:
           "mt-4 flex items-center rounded-full outline-none transition focus:ring-2 focus:ring-offset-2 md:justify-center md:hover:scale-105",
@@ -12519,24 +12519,24 @@ function Sp({ reference: e }) {
         className: "mt-8 flex flex-wrap justify-center gap-3",
         children: [
           y.jsxs(qn, {
-            href: "https://www.linkedin.com/in/santiago-sepúlveda-022a8a217/",
+            href: "https://www.linkedin.com/in/gene-witsman-garcía-0a814b286/",
             children: [
               y.jsx(Ec, { size: 24, weight: "bold" }),
               y.jsx("span", { children: "Linkedin" }),
             ],
           }),
           y.jsxs(qn, {
-            href: "https://github.com/SantiagoS2109",
+            href: "https://github.com/GeneWG",
             children: [
               y.jsx(fu, { size: 24, weight: "bold" }),
               y.jsx("span", { children: "Github" }),
             ],
           }),
           y.jsxs(qn, {
-            href: "mailto:santiagosepul2109@gmail.com?Subject=Interesado%20en%20contactarte",
+            href: "mailto:genewitsman2003@gmail.com?Subject=Interesado%20en%20contactarte",
             children: [
               y.jsx(xc, { size: 24, weight: "bold" }),
-              y.jsx("span", { children: "santiagosepul2109@gmail.com" }),
+              y.jsx("span", { children: "genewitsman2003@gmail.com" }),
             ],
           }),
         ],
@@ -12571,7 +12571,7 @@ function kp() {
               className:
                 "aspect-square h-52 w-52 rotate-6 rounded-[4rem] object-cover shadow-xl",
               src: Ep,
-              alt: "Santiago Sepúlveda Dev.",
+              alt: "Eugenio Witsman Dev.",
             }),
           }),
           y.jsxs("div", {
@@ -12580,18 +12580,17 @@ function kp() {
             children: [
               y.jsx("p", {
                 children:
-                  "Mi nombre es Santiago Sepúlveda, y tengo 21 años. Desde mi infancia, he sentido una profunda fascinación por el mundo de la tecnología y la creatividad. Recuerdo haber pasado horas dibujando en Paint cuando tuve mi primer encuentro con un computador con Windows XP.",
-              }),
+                  "Me llamo Gene Witsman (Eugenio en el DNI español) y tengo 21 años. Soy mitad estadounidense ya que mi padre es de Florida, Estados Unidos. Siempre he sido una persona curiosa y con ganas de aprender cosas nuevas, y desde pequeño siempre me ha interesado la informática. Desde que descubrí la programación me apasioné."              }),
               y.jsxs("p", {
                 children: [
                   " ",
-                  "Durante mis estudios secundarios, experimenté mi primer acercamiento al ámbito de la programación mediante PHP. Más adelante, descubrí la animación 3D, lo que impulsó mi decisión de dedicarme a la disciplina que hoy en día desarrollo.",
+                  "Cuando no estoy frente al ordenador, disfruto entrenando en el gimnasio, donde he adquirido valores importantes como la disciplina y el trabajo duro. Cualidades que me gusta aplicar a los diferentes aspectos de mi vida, así como en mi futura carrera profesional.",
                   " ",
                 ],
               }),
               y.jsx("p", {
                 children:
-                  "En la actualidad, me dedico a estudiar desarrollo web de manera autodidacta, complementando el conocimiento que estoy adquiriendo en mi pregrado. Asimismo, me esfuerzo por perfeccionar otro de mis campos de interés predilectos: la animación.",
+                  "Como recién graduado, estoy buscando una oportunidad para unirme a un equipo dinámico y colaborar en proyectos innovadores. Mi objetivo es aplicar mis conocimientos y habilidades para contribuir al éxito del equipo y aprender de profesionales experimentados. Soy una persona proactiva y siempre dispuesta a asumir nuevos retos.",
               }),
             ],
           }),
@@ -12626,7 +12625,7 @@ function Ap({ isIntersecting: e }) {
         y.jsx(Dr, { href: "#educacion", children: "Educación" }),
         y.jsx(Dr, { href: "#sobremi", children: "Sobre mí" }),
         y.jsx(Dr, {
-          href: "mailto:santiagosepul2109@gmail.com?Subject=Interesado%20en%20contactarte",
+          href: "mailto:genewitsman2003@gmail.com?Subject=Interesado%20en%20contactarte",
           children: "Contacto",
         }),
         y.jsx(Cp, {}),
@@ -12676,16 +12675,16 @@ function Rp() {
       y.jsxs("div", {
         className: "mt-8 flex justify-evenly",
         children: [
-          y.jsx(jt, { icon: Pp, label: "JavaScript" }),
+          y.jsx(jt, { icon: Pp, label: "Java" }),
           y.jsx(jt, { icon: _p, label: "CSS" }),
           y.jsx(jt, { icon: Op, label: "HTML" }),
-          y.jsx(jt, { icon: Mp, label: "React" }),
+          y.jsx(jt, { icon: Mp, label: "SQL" }),
         ],
       }),
       y.jsxs("div", {
         className: "mt-4 flex justify-evenly",
         children: [
-          y.jsx(jt, { icon: Np, label: "Supabase" }),
+          y.jsx(jt, { icon: Np, label: "JavaScript" }),
           y.jsx(jt, { icon: jp, label: "Figma" }),
           y.jsx(jt, { icon: Fp, label: "Git" }),
         ],
@@ -12756,8 +12755,8 @@ function Dp() {
                     Tp,
                     " ",
                     y.jsx("a", {
-                      href: "https://www.linkedin.com/in/santiago-sepúlveda-022a8a217/",
-                      children: "Santiago Sepúlveda.",
+                      href: "https://www.linkedin.com/in/gene-witsman-garcía-0a814b286/",
+                      children: "Eugenio Witsman.",
                     }),
                     " ",
                     "Casi todos los derechos reservados",
@@ -12775,7 +12774,7 @@ function Dp() {
                     y.jsx("a", {
                       className:
                         "font-bold transition-all duration-300 hover:underline",
-                      href: "mailto:santiagosepul2109@gmail.com?Subject=Interesado%20en%20contactarte",
+                      href: "mailto:genewitsman2003@gmail.com?Subject=Interesado%20en%20contactarte",
                       children: "Contacto",
                     }),
                   ],
